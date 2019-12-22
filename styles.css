@@ -8,7 +8,6 @@
     display: flex;
     padding: 50px;
     align-content: space-between;
-
 }
 
 .upper-block {
@@ -18,74 +17,20 @@
     height: 100%;
 }
 
-.search {
-    /* margin-top: 16px; */
-}
-
-/* .upper-header-icons {
-    float: right;
-    margin-top: 15px;
-}
-
-.header-right {
-    float: right;
-    margin-top: 5px;
-    border: 1px solid black;
-}
-
-.lower-header-icons {
-    border: 1px solid black;
-    float: right;
-    margin-top: 35px;
-    margin-left: 14px;
-}
-
-.capture-details {
-    border: 1px solid black;
-    margin-top: 61px;
-    font-size: 15px;
-    float: right;
-}
-
-.header-center {
-    display: inline;
-    border: 1px solid black;
-    margin-left: 30px;
-}
-
-.url {
-    width: 400px;
-
-}
-
-.account-opening,
-.help-icon,
-.stop-icon,
-.facebook,
-.tweeter {
-    width: 20px;
-}
-
-.main-block {
-    align-items: center;
-    background-color: aquamarine;
-}
-
 .footer-up {
     display: flex;
-    position: relative;
-    margin-top: 100px;
-
 }
 
-.footer-down {
-    background-color: darkgreen;
+.footer-img-1 {
+    /* background-image: url("./resources/iphone5-gold.jpg"); */
+    justify-content: space-evenly;
+    background-size: 100%;
+    background-repeat: no-repeat;
 }
 
-.icons {
-    border: 1px solid black;
+.footer-image {
+    width: 353px;
+    padding-inline-end: 4px;
+    padding-top: 4px;
 }
 
-.header-middle {
-   display: inline;
-} */
