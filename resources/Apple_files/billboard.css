@@ -1,0 +1,116 @@
+#billboard { position:absolute; top:0; right:0; bottom:292px; left:0; overflow:hidden; }
+#billboard .hero { position:absolute; top:0; right:0; bottom:0; left:0; }
+
+/* billboard baseline */
+#billboard .header { position:absolute; top:50%; right:0; left:0; }
+
+#billboard .title { margin-bottom:0; }
+#billboard .title img { display:none; margin-right:auto; margin-left:auto; }
+
+#billboard .subtitle { margin-bottom:0; }
+#billboard .subtitle img { display:none; margin-right:auto; margin-left:auto; }
+
+#billboard .subheadline { margin-bottom:0; }
+#billboard .subheadline img { display:none; margin-right:auto; margin-left:auto; }
+
+#billboard .hero-image img { display:none; margin-right:auto; margin-left:auto; }
+
+
+/* Your Verse
+=================================================================*/
+
+#billboard .your-verse { right:auto; left:50%; margin-left:-720px; width:1440px; background:url(https://web.archive.org/web/20140301004302im_/http://images.apple.com/v/home/as/images/your_verse_hero.jpg) 50% 100% no-repeat; background-size:1440px 1315px; }
+
+/* desktop 15 & desktop 11 (default) */
+#billboard .your-verse .header { margin-top:-170px; padding:50px 0; background:url(https://web.archive.org/web/20140301004302im_/http://images.apple.com/v/home/as/images/your_verse_scrim.png) 0 50% repeat-x; background-size:25px 335px; }
+
+#billboard .your-verse .title .small,
+#billboard .your-verse .subheadline .small { display:block; }
+
+#billboard .your-verse .title { margin-bottom:-9px; }
+#billboard .your-verse .subheadline { margin-bottom:27px; }
+
+/* large desktop & ipad portrait */
+@media only screen and (min-height:1250px), only screen and (min-device-width:481px) and (max-device-width:768px) and (orientation:portrait) {
+	#billboard .your-verse { background-position:50% 90%; }
+
+	#billboard .your-verse .header { margin-top:-400px; background:none !important; }
+
+	#billboard .your-verse .title .small,
+	#billboard .your-verse .subheadline .small  { display:none; }
+
+	#billboard .your-verse .title .medium,
+	#billboard .your-verse .subheadline .medium { display:block; }
+
+	#billboard .your-verse .title { margin-bottom:-14px; }
+	#billboard .your-verse .subheadline { margin-bottom:24px; }
+}
+
+/* ipad landscape */
+@media only screen and (min-device-width:481px) and (max-device-width:768px) and (orientation:landscape) {
+	#billboard .your-verse { background-position:50% 87%; }
+
+	#billboard .your-verse .header { margin-top:-160px; }
+
+	#billboard .your-verse .title .medium,
+	#billboard .your-verse .subheadline .medium { display:none; }
+
+	#billboard .your-verse .title .small,
+	#billboard .your-verse .subheadline .small { display:block; }
+
+	#billboard .your-verse .title { margin-bottom:-9px; }
+	#billboard .your-verse .subheadline { margin-bottom:24px; }
+}
+
+/* iphone landscape short */
+@media only screen and (min-device-width:320px) and (max-device-width:480px) and (orientation:landscape) {
+	#billboard .your-verse { background-position:50% 90%; }
+
+	#billboard .your-verse .header { margin-top:-160px; }
+
+	#billboard .your-verse .title { margin-bottom:-11px; }
+	#billboard .your-verse .subheadline { margin-bottom:23px; }
+}
+
+/* iphone portrait */
+@media only screen and (min-device-width:320px) and (max-device-width:480px) and (orientation:portrait) {
+
+	#billboard .your-verse .header { margin-top:-500px; background:none !important; }
+
+	#billboard .your-verse .title .small,
+	#billboard .your-verse .title .medium,
+	#billboard .your-verse .subheadline .small,
+	#billboard .your-verse .subheadline .medium { display:none; }
+
+	#billboard .your-verse .header .title .large,
+	#billboard .your-verse .header .subheadline .large { display:block; }
+}
+
+/* iphone portrait small screen */
+@media only screen and (max-device-height:480px) and (orientation:portrait) {
+	#billboard .your-verse { background-position:50% 85%; }
+
+	#billboard .your-verse .header { margin-top:-400px; }
+}
+
+/*
+     FILE ARCHIVED ON 00:43:02 Mar 01, 2014 AND RETRIEVED FROM THE
+     INTERNET ARCHIVE ON 19:17:35 Dec 20, 2019.
+     JAVASCRIPT APPENDED BY WAYBACK MACHINE, COPYRIGHT INTERNET ARCHIVE.
+
+     ALL OTHER CONTENT MAY ALSO BE PROTECTED BY COPYRIGHT (17 U.S.C.
+     SECTION 108(a)(3)).
+*/
+/*
+playback timings (ms):
+  captures_list: 72.301
+  RedisCDXSource: 6.201
+  CDXLines.iter: 13.555 (3)
+  exclusion.robots: 0.187
+  exclusion.robots.policy: 0.173
+  PetaboxLoader3.datanode: 59.859 (5)
+  LoadShardBlock: 45.628 (3)
+  load_resource: 209.074
+  PetaboxLoader3.resolve: 135.878 (2)
+  esindex: 0.016
+*/

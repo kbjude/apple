@@ -1,13 +1,21 @@
-.head {
-   margin-top: -10px;
-   border: 5px solid black;
-   border-bottom-left-radius: 10px;
-   border-bottom-right-radius: 10px;
-   background-color: floralwhite;
-   height: 80px;
+.nav-bar {
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
 }
 
-.upper-header-icons {
+.nav-items {
+    display: flex;
+    padding: 50px;
+    align-content: space-between;
+
+}
+
+.search {
+    /* margin-top: 16px; */
+}
+
+/* .upper-header-icons {
     float: right;
     margin-top: 15px;
 }
@@ -32,7 +40,18 @@
     float: right;
 }
 
-.account-opening, 
+.header-center {
+    display: inline;
+    border: 1px solid black;
+    margin-left: 30px;
+}
+
+.url {
+    width: 400px;
+
+}
+
+.account-opening,
 .help-icon,
 .stop-icon,
 .facebook,
@@ -62,4 +81,4 @@
 
 .header-middle {
    display: inline;
-}
+} */
