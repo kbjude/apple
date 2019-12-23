@@ -10,11 +10,15 @@
     align-content: space-between;
 }
 
+/* .background-img {
+    width: 100%;
+    height: 40%;
+} */
 .upper-block {
     background-image: url("./resources/ipad-mountaineering-main.jpg");
     background-repeat: no-repeat;
-    background-size: 100%;
-    height: 100%;
+    background-size: 1500px;
+    height: 450px;
 }
 
 .footer-up {
@@ -33,3 +37,22 @@
     padding-top: 4px;
 }
 
+.footer-right-item {
+    padding: 0 9px;
+    border-right: 1px solid black;
+}
+
+.footer-right {
+    display: flex;
+    padding: auto;
+    margin-left: auto;
+    justify-content: stretch;
+}
+
+.footer-down, 
+.footer-bottom {
+    display: flex;
+    margin: 20px 190px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 10px;
+}
