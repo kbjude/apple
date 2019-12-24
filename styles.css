@@ -63,18 +63,40 @@
     color: grey;  
 }
 
-.footer-down a:visited { color: red; }
-.footer-down a:hover { 
-    color: greenyellow; 
-    text-underline-position: below;
+#footer-left a:visited { 
+    color: #48f
 }
-.footer-down a:link {color: purple; }
+#footer-left a:hover { 
+    text-decoration: underline;
+}
+#footer-left a:link {
+    color: #48f; 
+}
 
 #footer-right-img {
     width: 15px;
     cursor: pointer;
 }
 
-.footer-lower {
+.footer-bottom a {
+    text-decoration: none;
+    color: grey;
+}
+
+#footer-lower {
     display: inline;
+}
+
+.footer-right a:hover,
+#footer-lower a:hover {
+    text-decoration: underline;
+}
+
+.footer-right a:link,
+#footer-lower a:link {
+    color: #48f;
+}
+.footer-right a:visited,
+#footer-lower a:visited {
+    color: #48f;
 }
