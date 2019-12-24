@@ -2,12 +2,30 @@
     display: flex;
     justify-content: center;
     justify-content: space-around;
+    padding: 50px;
 }
 
 .nav-items {
     display: flex;
-    padding: 50px;
-    align-content: space-between;
+    background-color: gray;
+    border-radius: 7px;
+}
+
+#item {
+    padding: 9px 28px;
+    border-left: 1px solid black;
+    box-shadow: gray;
+    color: aliceblue;
+}
+
+.search {
+    margin: 9px 7px;
+}
+
+#nav-bar-search {
+    border-radius: 7px;
+    min-width: 90px;
+    max-width: 100px;
 }
 
 /* .background-img {
