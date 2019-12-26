@@ -31,13 +31,13 @@
     /* margin-top: 10px; */
 }
 
-.nav-items #item:hover {
+.nav-items #item:hover, #apple:hover {
     color: white;
     background-color: black;
     
 }
 
-.search {
+#search {
     margin: 11px 7px;
 }
 
@@ -48,7 +48,10 @@
     background-image: url("./resources/search_icon_used.png");
     background-size: 15px;
     background-repeat: no-repeat;
-    
+}
+
+.nav-items #search:focus-within {
+    background-image: none;
 }
 
 .nav-items #nav-bar-search::selection {
