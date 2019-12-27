@@ -82,25 +82,43 @@
     height: 450px;
 }
 
-.text-area {
-    font: white;
-    float: right;
+.mid-text {
+    font-family: 'Lucida Grande';
+    font: 12px/18px;
+    text-align: center;
+    margin: 0 300px
+   
 }
 
 h1 {
-    font-size: 40px;
+    font-size: 50px;
+    /* margin-left: 420px; */
+    font-weight: lighter;
+    text-align: center;
+    margin-top: 0px;
+    color: white;
+    font: 12px/18px;
 }
 
 #body-para {
     font-size: 25px;
+    flex-flow: nowrap;
+    /* margin-left: 350px; */
+    text-align: center;
+    font-weight: lighter;
+    color: white;
 }
 
-#video {
+#video{
     color: lightcyan;
+    
 }
 
 #video-description {
     color: white;
+    text-align: center;
+    font-size: 20px;
+    font-weight: lighter;
 }
 
 .footer-up {
