@@ -44,7 +44,6 @@
     border-radius: 7px;
     min-width: 90px;
     max-width: 100px;
-    /* background-image: url("./resources/search_icon_used.png"); */
     background-size: 15px;
     background-repeat: no-repeat;
     font-family: FontAwesome;
@@ -80,7 +79,6 @@
 
 h1 {
     font-size: 50px;
-    /* margin-left: 420px; */
     font-weight: lighter;
     text-align: center;
     margin-top: 0px;
@@ -91,7 +89,6 @@ h1 {
 #body-para {
     font-size: 25px;
     flex-flow: nowrap;
-    /* margin-left: 350px; */
     text-align: center;
     font-weight: lighter;
     color: white;
