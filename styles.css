@@ -9,8 +9,8 @@
 
 .nav-items {
     display: flex;
-    background-color: gray;
     border-radius: 7px;
+    background-image: linear-gradient(to right, #474444, rgb(48, 47, 47))
 }
 
 #apple {
@@ -47,14 +47,6 @@
     background-size: 15px;
     background-repeat: no-repeat;
     font-family: FontAwesome;
-}
-
-.nav-items #search:focus-within {
-    background-image: none;
-}
-
-.nav-items #nav-bar-search::selection {
-    backface-visibility: hidden;
 }
 
 #item-1 {
