@@ -68,6 +68,7 @@
     background-size: 1500px;
     height: 450px;
     cursor: pointer;
+    background-image:  #eee,#ccc 50px
 }
 
 .mid-text {
@@ -95,7 +96,7 @@ h1 {
 }
 
 #video{
-    color: lightcyan;
+    text-decoration-color: transparent;
     
 }
 
@@ -104,6 +105,11 @@ h1 {
     text-align: center;
     font-size: 20px;
     font-weight: lighter;
+    text-decoration: none;
+}
+
+#video-description:hover {
+    text-decoration: underline;
 }
 
 .footer-up {
