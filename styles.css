@@ -22,7 +22,7 @@
     cursor: pointer;
 }
 
-#item {
+.item {
     padding: 15px 28px;
     border-right: 1px solid black;
     box-shadow: gray;
@@ -30,7 +30,7 @@
     cursor: pointer;
 }
 
-.nav-items #item:hover, #apple:hover {
+.nav-items .item:hover, #apple:hover {
     color: white;
     background-color: black;
     
@@ -46,7 +46,8 @@
     max-width: 100px;
     background-size: 15px;
     background-repeat: no-repeat;
-    font-family: FontAwesome;
+    background-image: url(./resources/search_icon_used.png);
+    text-indent: 13px;
 }
 
 #item-1 {
