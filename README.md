@@ -22,7 +22,7 @@ Link to the project is [here](https://kbjude.github.io/apple/)
 - [Setting-backgrounds](https://learn.shayhowe.com/html-css/setting-backgrounds-and-gradients/)
 
 ## Prerequisites
-The only prerequisit to this project is s any browser that supports html5 and CSS3
+The only prerequisit to this project is any browser that supports html5 and CSS3
 
 ## Author
 - Github: [@kbjude](https://github.com/kbjude)
