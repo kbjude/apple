@@ -18,7 +18,11 @@ Link to the project is [here](https://kbjude.github.io/apple/)
 
 - [w3schools](https://www.w3schools.com/html/html5_intro.asp)
 - [fontawesome](https://fontawesome.com/v4.7.0/icons/)
-- [youtube](http://archive.ph/Bss88)
 - [CSS3-gradients](https://css-tricks.com/css3-gradients/)
 - [Setting-backgrounds](https://learn.shayhowe.com/html-css/setting-backgrounds-and-gradients/)
 
+## Prerequisites
+The only prerequisit to this project is s any browser that supports html5 and CSS3
+
+## Author
+Github: 
