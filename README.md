@@ -1,5 +1,5 @@
 # Apple Clone
-##About the Project
+## About the Project
 
 This is a Solo project about a clone of the Apple achived page done from scratch to ensure a perfect output while testing the skills and knowledge in HTML/CSS. Among the features implemented are: using images, back ground and gradient, search element,  and many other as shown in the link below.
 Link to the project is [here](https://kbjude.github.io/apple/)
