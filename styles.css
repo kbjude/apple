@@ -10,7 +10,8 @@
 .nav-items {
     display: flex;
     border-radius: 7px;
-    background-image: linear-gradient(to right, #474444, rgb(48, 47, 47))
+    background-image: radial-gradient( #474444, rgb(40, 50, 47));
+    
 }
 
 #apple {
@@ -58,10 +59,11 @@
 .upper-block {
     background-image: url("./resources/ipad-mountaineering-main.jpg");
     background-repeat: no-repeat;
-    background-size: 1500px;
+    background-size: 1345px;
     height: 450px;
     cursor: pointer;
-    background-image:  #eee,#ccc 50px
+    background-image:  #eee,#ccc 50px;
+    margin-left: 40px;
 }
 
 .mid-text {
@@ -107,16 +109,18 @@ h1 {
 
 .footer-up {
     display: flex;
+    width: 1300px;
+    margin-left: 40px;
 }
 
 .footer-img-1 {
     justify-content: space-evenly;
-    background-size: 100%;
+    background-size: 50%;
     background-repeat: no-repeat;
 }
 
 .footer-image {
-    width: 353px;
+    width: 333px;
     padding-inline-end: 4px;
     padding-top: 4px;
     cursor: pointer;
