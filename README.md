@@ -25,4 +25,4 @@ Link to the project is [here](https://kbjude.github.io/apple/)
 The only prerequisit to this project is s any browser that supports html5 and CSS3
 
 ## Author
-Github: 
+- Github: [@kbjude](https://github.com/kbjude)
